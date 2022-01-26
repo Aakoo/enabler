@@ -33,13 +33,13 @@ public class ParisProvider extends AbstractNavitiaProvider {
     public ParisProvider(final HttpUrl apiBase, final String authorization) {
         super(NetworkId.PARIS, apiBase, authorization);
 
-        setTimeZone("Europe/Paris");
+        setTimeZone("Africa/Tunis");
     }
 
     public ParisProvider(final String authorization) {
         super(NetworkId.PARIS, authorization);
 
-        setTimeZone("Europe/Paris");
+        setTimeZone("Africa/Tunis");
     }
 
     @Override
