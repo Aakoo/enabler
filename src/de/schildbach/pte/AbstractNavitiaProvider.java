@@ -86,7 +86,7 @@ public abstract class AbstractNavitiaProvider extends AbstractNetworkProvider {
             Capability.TRIPS
     );
 
-    protected HttpUrl apiBase = HttpUrl.parse("http://167.99.33.18:9191/").newBuilder().addPathSegment(SERVER_VERSION)
+    protected HttpUrl apiBase = HttpUrl.parse("https://api.thnity.com/").newBuilder().addPathSegment(SERVER_VERSION)
             .build();
 
     private enum PlaceType {
